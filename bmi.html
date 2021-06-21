@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function bmiCalculator(weight, height) {
+        var result = weight/(height*height);
+        return result;
+      }
+
+      inputWeight = prompt("What is your weight in KG?");
+      inputHeight = prompt("what is your height in meter(squared)");
+      var bmi = bmiCalculator(inputWeight, inputHeight);
+      alert("Your BMI (Body Mass Index) is: " + Math.round(bmi));
+
+    </script>
+  </body>
+</html>
